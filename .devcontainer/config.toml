@@ -1,0 +1,11 @@
+# SnowCLI config
+
+[options]
+default_connection = "dev"
+
+[connections]
+[connections.dev]
+database = "HOL_DB"
+schema = "ANALYTICS"
+warehouse = "HOL_WH"
+role = "HOL_ROLE"
